@@ -1,0 +1,93 @@
+{
+    "student":
+    [
+        {
+        "rolnum": 121,
+        "name": "ashish",
+        "city": "bhopal",
+        "id": 354
+        },
+
+        {
+            "rolnum": 121,
+            "name": "ashish",
+            "city": "bhopal",
+            "id": 354
+       },
+
+       {
+                "rolnum": 121,
+                "name": "ashish",
+                "city": "bhopal",
+                "id": 354
+       },
+          
+                
+       {
+                "rolnum": 121,
+                "name": "ashish",
+                "city": "bhopal",
+                "id": 354
+       }
+            
+    ],
+    "ruslt":[
+        {
+            "rolnum": 121,
+            "name": "ashish",
+            "city": "bhopal",
+            "id": 354
+   },
+
+   {
+    "rolnum": 121,
+    "name": "ashish",
+    "city": "bhopal",
+    "id": 354
+},
+
+{
+    "rolnum": 121,
+    "name": "ashish",
+    "city": "bhopal",
+    "id": 354
+},
+
+{
+    "rolnum": 121,
+    "name": "ashish",
+    "city": "bhopal",
+    "id": 354
+}
+    ],
+
+    "subject":[
+        {
+            "rolnum": 121,
+            "name": "ashish",
+            "city": "bhopal",
+            "id": 354
+   },
+
+   {
+    "rolnum": 121,
+    "name": "ashish",
+    "city": "bhopal",
+    "id": 354
+},
+
+{
+    "rolnum": 121,
+    "name": "ashish",
+    "city": "bhopal",
+    "id": 354
+},
+
+{
+    "rolnum": 121,
+    "name": "ashish",
+    "city": "bhopal",
+    "id": 354
+}
+    ]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Function to be executed after the timeout
+function sayHello() {
+    console.log("Hello, World!");
+}
+
+// Set a timeout to call the function after 2000 milliseconds (2 seconds)
+setTimeout(sayHello, 2000);
+
+setTimeout(function() {
+    console.log("This message appears after 3 seconds.");
+}, 3000);
+
+
+setTimeout(() => {
+    console.log("This message appears after 1 second.");
+}, 1000);
+
+
+    </script>
+</body>
+</html>

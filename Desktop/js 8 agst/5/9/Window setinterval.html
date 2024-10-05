@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<body>
+    <style>
+        #line
+        {
+            width: 10px;
+            height: 10px;
+            background-color: aqua;
+        }
+    </style>
+    <!-- <h1 id="demo">Hello ! </h1> -->
+    <!-- <h1 id="demo">Hello ! </h1> -->
+
+
+    <script>
+    //     function display()
+    //     {
+    //         document.getElementById("demo").innerHTML+="Welcome to bhopal ! ";
+    //     }
+    //    // setInterval(display ,2000); // repete multipal time in a function;
+          
+       
+
+    //    // date function;
+       
+    // //    function myDate()
+    // //        {
+    // //         const d= new Date();
+    // //         document.getElementById("demo").innerHTML=d;
+    // //        }
+    // //        setInterval(myDate, 1000);
+
+
+
+
+    // function myDate()
+    //        {
+            
+    //         document.getElementById("demo").innerHTML="Cybrom";
+    //        }
+    //        var myint=setInterval(myDate, 1000);
+
+    //        function myStop()
+    //        {
+    //         clearInterval(myint);
+    //        }
+
+
+    let mywidth=10;
+    var myint;
+
+    function cal()
+    {
+        let myobj=document.getElementById("line");
+        myobj.style.width=mywidth+"px";
+        mywidth=mywidth+1;
+    }
+
+    function Start()
+    {
+        myint=setInterval(cal, 100);
+    }
+
+    function Stop()
+    {
+        clearInterval(myint );
+    }
+
+
+   </script>
+
+    <!-- <button onclick="mystop()"> Stop</button> -->
+
+    <button onclick="Start()"> Start Now</button>
+    <button onclick="stop()">Stop Naw</button>
+
+    <br> <br>
+    <div id="line"></div>
+</body>
+</html>

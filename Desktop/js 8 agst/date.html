@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //  1. 
+
+        // const d=new Date(2024, 9, 14, 11, 45, 50, 457);
+        // document.write("<h1>", d, "</h1>");
+
+
+
+        // 2.  milisecend
+
+        // const d=new Date(968686868451);
+        // document.write("<h1>", d, "</h1>");
+
+
+
+        // 3. date formet
+
+        // const d=new Date("2024-11-23");
+        // document.write("<h1>", d, "</h1>");
+
+
+        // 4. parsing
+
+        // let msec= Date.parse("2003-07-07");
+        // let cur= Date.parse("2024-08-17");
+        // document.write("<h1>", msec, "</h1>");
+        // document.write("<h1>", cur, "</h1>");
+
+
+
+        // 5. Get Date
+
+        // let d=Date.now();
+        // document.write("<h1>", d, "</h1>");
+
+
+        // 6. get full year
+
+        // const d= new Date();
+        // document.write("<h1>", d, "</h1>");
+        // const ans= d.getFullYear();
+        // document.write("<h1>", ans, "</h1>");
+
+
+
+        // 7. get Date , month
+
+        const d= new Date();
+        document.write("<h1>", d, "</h1>");
+        const ans= d.getMonth();
+        const month=["january", "fubruary", "march", "april", "may", "june", "july", "august","september", "november", "december"];
+        document.write("<h1>", ans, " : ", month[ans], "</h1>");
+
+
+    
+    </script>
+</body>
+</html>
